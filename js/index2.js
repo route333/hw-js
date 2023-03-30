@@ -16,4 +16,16 @@ const cName = "iPhone 14 Pro Max";
 console.log(cName, cPrice);
 
 // let 5
+let lText = "java script";
+console.log(lText);
 
+let lNumber = 54321;
+console.log(lNumber);
+
+let lFlag = true;
+console.log(lFlag);
+
+let lPrice = 100000;
+
+let lName = "MacBook Air 2021";
+console.log(lName, lPrice);
