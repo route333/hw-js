@@ -1,5 +1,12 @@
-let snickers = `Snickers`.toUpperCase();
-console.log(snickers);
-const strinkLangs = snickers.length;
-console.log(strinkLangs);
-console.log(Math.random() * (200 - 1) + 1);
+//  завдання 1
+const str = "Привіт";
+console.log(typeof str);
+
+const num = 123;
+console.log(typeof num);
+
+const flag = true;
+console.log(typeof flag);
+
+const txt = "true";
+console.log(typeof txt);

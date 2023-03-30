@@ -1,5 +1,3 @@
-var persons = [
-  { firstName: "Oleg", lastName: "Bond", age: 15 },
-  { firstName: "Bond", lastName: "Oleg", age: 15 },
-];
-console.table(persons, ["firstName", "lastName", "age"]);
+//  завдання 3
+let yourName = prompt("Введіть ім'я");
+console.log(yourName);
