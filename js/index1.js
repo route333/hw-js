@@ -1,12 +1,17 @@
 //  завдання 1
-const str = "Привіт";
-console.log(typeof str);
 
-const num = 123;
-console.log(typeof num);
+let к1 = "5px";
+к1 = Number.parseInt(к1);
+console.log(к1);
 
-const flag = true;
-console.log(typeof flag);
+let к2 = "12djd334";
+к2 = Number.parseInt(к2);
+console.log(к2);
 
-const txt = "true";
-console.log(typeof txt);
+let к3 = "12.45asdwe12";
+к3 = Number.parseInt(к3);
+console.log(к3);
+
+let к4 = "qwqweeewq";
+к4 = Number.parseInt(к4);
+console.log(к4);

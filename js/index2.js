@@ -1,31 +1,17 @@
 //   завдання 2
 
-// const 5
-const cText = "text";
-console.log(cText);
+let к1 = "5px";
+к1 = Number.parseFloat(к1);
+console.log(к1);
 
-const cNumber = 12345;
-console.log(cNumber);
+let к2 = "12djd334";
+к2 = Number.parseFloat(к2);
+console.log(к2);
 
-const cFlag = false;
-console.log(cFlag);
+let к3 = "12.45asdwe12";
+к3 = Number.parseFloat(к3);
+console.log(к3);
 
-const cPrice = 60000;
-
-const cName = "iPhone 14 Pro Max";
-console.log(cName, cPrice);
-
-// let 5
-let lText = "java script";
-console.log(lText);
-
-let lNumber = 54321;
-console.log(lNumber);
-
-let lFlag = true;
-console.log(lFlag);
-
-let lPrice = 100000;
-
-let lName = "MacBook Air 2021";
-console.log(lName, lPrice);
+let к4 = "qwqweeewq";
+к4 = Number.parseFloat(к4);
+console.log(к4);
