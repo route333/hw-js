@@ -1,7 +1,15 @@
 //    завдання 4
+let a = 5;
+let b = 10;
+let c = 15;
+let d = 20;
 
-let minNum = 3;
-let maxNum = 19;
+a += 2;
+b -= 4;
+c *= 3;
+d /= 10;
 
-const random = Math.round(Math.random() * (minNum - maxNum) + maxNum);
-console.log(random);
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
