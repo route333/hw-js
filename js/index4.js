@@ -1,15 +1,5 @@
 //    завдання 4
-let a = 5;
-let b = 10;
-let c = 15;
-let d = 20;
+let myName = "Oleg";
+myName = myName.replace("O", "@");
+console.log(myName);
 
-a += 2;
-b -= 4;
-c *= 3;
-d /= 10;
-
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);

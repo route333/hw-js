@@ -1,4 +1,3 @@
-const pricePerItem = 3500;
-const orderedQuantity = 4;
-const totalPrice = pricePerItem * orderedQuantity;
-console.log(totalPrice);
+const email = "abc123@gmail.com";
+console.log(email.includes("@"));
+console.log(email.length);

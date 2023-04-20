@@ -1,5 +1,5 @@
 //  завдання 3
-const SAVED_PASSWORD = 12345678;
-const password = prompt("введіть пароль");
-const isMatch = SAVED_PASSWORD === password;
-console.log(isMatch);
+const userName = "Олександр";
+const payment = "300";
+const advertisement = alert(`Дякуємо ${userName}! До сплати ${payment} гривень`);
+console.log(advertisement);
