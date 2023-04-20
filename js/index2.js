@@ -1,6 +1,6 @@
 // завдання 2
 const my = "my";
-const name = "name";
+const firstName = "name";
 const is = "is";
-const fullName = my + " " + name + " " + is + " Viktor";
+const fullName = my + " " + firstName + " " + is + " Viktor";
 console.log(fullName);
