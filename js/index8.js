@@ -1,4 +1,11 @@
-const productName = "Droid";
-const pricePerItem = 3500;
-const mesSage = `You picked ${productName}, price per item is ${pricePerItem} credits`;
-console.log(mesSage);
+const myName = "Oleg".length;
+const surname = "Bondarenko".length;
+let message;
+
+if (myName >= 4 && surname >= 5){
+    const message = alert(myName + surname);
+} else{
+    const message = alert("ой я не можу виконати умову");
+}
+
+console.log(message)

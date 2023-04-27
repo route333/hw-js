@@ -1,5 +1,13 @@
 //  завдання 3
-const userName = "Олександр";
-const payment = 300;
-const advertisement = alert(`Дякуємо ${userName}! До сплати ${payment} гривень`);
-console.log(advertisement);
+const x1 = 10;
+const x2 = 30;
+const number = 45; 
+
+if (number === x1){
+    const message = alert("yeees");
+} else if (number === x2){
+    const message = alert("yes");
+} else {
+    const message = alert("noooo");
+}
+console.log(number);

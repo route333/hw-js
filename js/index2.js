@@ -1,6 +1,9 @@
 // завдання 2
-const my = "my";
-const firstName = "name";
-const is = "is";
-const fullName = my + " " + firstName + " " + is + " Viktor";
-console.log(fullName);
+const nameLang = prompt("введыть справжню назву JS");
+
+if (nameLang === "ECMAScript"){
+        const message = alert("Правильно");
+} else{
+    const message = alert("Ви не знаєте? ECMAScript!");
+}
+console.log(nameLang);
