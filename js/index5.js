@@ -4,8 +4,10 @@ const pro = "pro";
 const vip = "vip";
 const message = 0;
  
-if (free === pro && vip){
-    const message = alert("вас допущено до контенту");
+if (free === pro){
+    const message = alert(`вас допущено до контенту рівню ${pro}`);
+} else if (free === vip){
+    const message = alert(`вас допущено до контенту рівню ${vip}`);
 } else {
     const message = alert(`вас не допущено до контенту,купіть підписку ${pro} або ${vip}`);
 }

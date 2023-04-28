@@ -1,4 +1,4 @@
-let numb = Math.floor(Math.random() * 5) + 1;
+let numb = Math.floor(Math.random() * (5 - 1) + 1);
 
 if (numb === 1){
     const message = alert("1");
