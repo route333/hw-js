@@ -1,24 +1,20 @@
-// змінну видно тому що створена поза іфом
+const lang = "ua";
 
-// const balance = 2500;
-// let message = "1";
+switch(lang){
+    case "ua":
+    "привіт";
+    break;
 
-// if (balance > 0){
-//     message = "поповнений баланс";
-// } else{
-//     message = "поповніть рахунок";
-// }
-// console.log(message);
+    case "en":
+    "hello";
+    break;
 
+    case "fr":
+    "Janvier"
+    break;
 
-// змінна невидима тому що створена всередині іфа
+    default:
+    "undefind"
+}
 
-// const balance = 2500;
-
-// if (balance > 0){
-//     let message = "1";
-//     message = "поповнений баланс";
-// } else{
-//     message = "поповніть рахунок";
-// }
-// console.log(message);
+console.log(lang);

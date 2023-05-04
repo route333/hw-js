@@ -1,16 +1,7 @@
-let a = 2;
-let b = 1;
-
-let result = (a + b < 4) ? 'Нижче' : 'Вище';
-
-console.log(result);
-
-// if (a + b < 4) {
-
-//  result = 'Нижче';
-
-// } else {
-
-//  result = 'Вище';
-
-// }
+for (let i = 10; i <= 30; i += 1) {
+    
+    if (i === 15) {
+        continue;
+    }
+    console.log(i);
+}

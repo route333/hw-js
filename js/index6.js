@@ -1,9 +1,6 @@
-const number = prompt("Введіть число:");
+let totalNumb = 0;
 
-if (number >= 55 && number <= 99) {
-  const message = alert("Число потрапляє в діапазон");
-} else {
-  const message = alert("Число не потрапляє в діапазон");
+for (let i = 12; i <= 27; i += 1) {
+  totalNumb += i;
 }
-
-console.log(number);
+console.log(totalNumb)

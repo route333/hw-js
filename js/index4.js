@@ -1,12 +1,19 @@
-//    завдання 4
-const isOnline = false;
-const isFriend = true;
-const isDnd = false;
- 
-if (isFriend === true && isOnline === true && isDnd === false){
-    const message = true;
-} else  {
-    const message = false;
-}
+const season = prompt("Який номер поточного місяця?");
 
-console.log(isOnline);
+switch(season){
+    case "1":
+    console.log("зима");
+    break;
+
+    case "2":
+    console.log("весна");
+    break;
+
+    case "3":
+    console.log("літо");
+    break;
+
+    case "4":
+    console.log("осінь");
+    break;
+}

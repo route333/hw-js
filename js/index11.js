@@ -1,15 +1,25 @@
-let numb = Math.floor(Math.random() * (5 - 1) + 1);
+// через фор
 
-if (numb === 1){
-    const message = alert("1");
-} else if (numb === 2){
-    const message = alert("2");
-} else if (numb === 3){
-    const message = alert("3");
-} else if (numb === 4){
-    const message = alert("4");
-} else{
-    const message = alert("5");
-}
+// for (let i = 1; i <= 5; i += 1) {
+//     console.log(i)
+// }
 
-console.log(numb);
+
+//  через вайл
+
+
+// let a = 1;
+
+// while (a <= 5) {
+//     console.log(a)
+//     a += 1
+// }
+
+// через вайл ду
+
+// let b = 1;
+
+// do {
+//     console.log(b);
+//     b += 1;
+// } while (b <= 5);

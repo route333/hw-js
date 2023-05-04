@@ -1,11 +1,7 @@
-const max = 55;
+let result = 1;
 
-if (max >= 0 && max <= 16) {
-    const group = alert("максим відноситься до групи діти");
-} else if (max >= 17 && max <= 60) {
-    const group = alert("максим відноситься до групи дорослі");
-} else if (max >= 61 && max <= 100) {
-    const group = alert("максим відноситься до групи пенсіонери");
+for (let i = 3; i <= 9; i += 2) {
+    console.log(result);
+    result = result * i;
 }
-console.log(max);
 

@@ -1,11 +1,7 @@
-const myName = "Oleg".length;
-const surname = "Bondarenko".length;
-let message;
-
-if (myName >= 4 && surname >= 5){
-    const message = alert(myName + surname);
-} else{
-    const message = alert("ой я не можу виконати умову");
-}
-
-console.log(message)
+for (let i = 1; i <= 100; i += 1) {
+    console.log(i);
+  
+    if (i === 49) {
+      break;
+    }
+  }

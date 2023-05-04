@@ -1,14 +1,4 @@
-// завдання 5
-const free = "free";
-const pro = "pro";
-const vip = "vip";
-const message = 0;
- 
-if (free === pro){
-    const message = alert(`вас допущено до контенту рівню ${pro}`);
-} else if (free === vip){
-    const message = alert(`вас допущено до контенту рівню ${vip}`);
-} else {
-    const message = alert(`вас не допущено до контенту,купіть підписку ${pro} або ${vip}`);
-}
-console.log(message);
+for (let i = 1; i <= 10; i += 1) {
+    console.log(`7x${i}=${7 * i}`);
+  }
+    
