@@ -1,6 +1,6 @@
-const weather = prompt("Який день тижня сьогодні?");
+const week = prompt("Який день тижня сьогодні?");
 
-switch(weather){
+switch(week){
     case "понеділок":
     console.log("робочий");
     break;
