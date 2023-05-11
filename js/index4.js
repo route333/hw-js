@@ -1,19 +1,5 @@
-const season = prompt("Який номер поточного місяця?");
-
-switch(season){
-    case "1":
-    console.log("зима");
-    break;
-
-    case "2":
-    console.log("весна");
-    break;
-
-    case "3":
-    console.log("літо");
-    break;
-
-    case "4":
-    console.log("осінь");
-    break;
+// завдання 4
+const num = [100, 123, 334, 546, 655];
+for(let i = 0; i < num.length; i++){
+    console.log(`елемент пiд номером ${i} це ${num[i]}`);
 }

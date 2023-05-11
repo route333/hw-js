@@ -1,31 +1,7 @@
-const week = prompt("Який день тижня сьогодні?");
-
-switch(week){
-    case "понеділок":
-    console.log("робочий");
-    break;
-
-    case "вівторок":
-    console.log("робочий");
-    break;
-
-    case "середа":
-    console.log("робочий");
-    break;
-
-    case "четвер":
-    console.log("робочий");
-    break;
-
-    case "п'ятниця":
-    console.log("любимий останній робочий");
-    break;
-
-    case "субота":
-    console.log("вихідний");
-    break;
-
-    case "неділя":
-    console.log("вихідний");
-    break;
+// завдання 3
+const num = [100, 100, 100];
+let totalNum = 0;
+for(let i = 0; i < num.length; i++){
+    totalNum = totalNum + num[i];
 }
+console.log(totalNum);

@@ -1,4 +1,8 @@
-for (let i = 1; i <= 10; i += 1) {
-    console.log(`7x${i}=${7 * i}`);
+
+// завдання 5
+const strng = ["cfffd", "dcf", "dcdff", "cdcf", "cccff"]
+for (let i = 0; i < strng.length; i++) {
+    if(strng[i].length >= 5){
+        console.log(strng[i]);
+    }
   }
-    

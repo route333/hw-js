@@ -1,20 +1,4 @@
-const lang = "ua";
-
-switch(lang){
-    case "ua":
-    "привіт";
-    break;
-
-    case "en":
-    "hello";
-    break;
-
-    case "fr":
-    "Janvier"
-    break;
-
-    default:
-    "undefind"
-}
-
-console.log(lang);
+// завдання 1
+const num = [11, 12, 13];
+console.table(num);
+num[1] += 10;
