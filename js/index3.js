@@ -1,7 +1,9 @@
 // завдання 3
-const num = [100, 100, 100];
-let totalNum = 0;
-for(let i = 0; i < num.length; i++){
-    totalNum = totalNum + num[i];
-}
-console.log(totalNum);
+const styles = ["Джаз", "Блюз"];
+let shft;
+styles.push("Рок-н-ролл");
+styles.splice(1, 1, "Класика");
+shft = styles.shift();
+console.log(shft);
+styles.unshift("Реп", "Реггі");
+console.log(styles);
