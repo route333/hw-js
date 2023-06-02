@@ -106,3 +106,37 @@
 //   console.log(checkForSpam('Get best sale offers now!')); // true
   
 //   console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
+
+// завдання 6
+
+let input;
+const numbers = [];
+let total = 0;
+
+function totalSum() {
+  do {
+    input = prompt('Введіть число');
+    
+    if (input === null) {
+      break;
+    }
+    
+    input = Number(input);
+    
+    if (Number.isNaN(input)) {
+      alert('Було введено не число, спробуйте ще раз.');
+    } else {
+      numbers.push(input);
+    }
+  } while (input !== null);
+  
+  if (numbers.length > 0) {
+    for (const number of numbers) {
+      total += number;
+    }
+  
+    console.log(`сума чисел ${total}.`);
+  }
+}
+
+totalSum();
