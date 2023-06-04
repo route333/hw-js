@@ -109,34 +109,34 @@
 
 // завдання 6
 
-let input;
-const numbers = [];
-let total = 0;
+// let input;
+// const numbers = [];
+// let total = 0;
 
-function totalSum() {
-  do {
-    input = prompt('Введіть число');
+// function totalSum() {
+//   do {
+//     input = prompt('Введіть число');
     
-    if (input === null) {
-      break;
-    }
+//     if (input === null) {
+//       break;
+//     }
     
-    input = Number(input);
+//     input = Number(input);
     
-    if (Number.isNaN(input)) {
-      alert('Було введено не число, спробуйте ще раз.');
-    } else {
-      numbers.push(input);
-    }
-  } while (input !== null);
+//     if (Number.isNaN(input)) {
+//       alert('Було введено не число, спробуйте ще раз.');
+//     } else {
+//       numbers.push(input);
+//     }
+//   } while (input !== null);
   
-  if (numbers.length > 0) {
-    for (const number of numbers) {
-      total += number;
-    }
+//   if (numbers.length > 0) {
+//     for (const number of numbers) {
+//       total += number;
+//     }
   
-    console.log(`сума чисел ${total}.`);
-  }
-}
+//     console.log(`сума чисел ${total}.`);
+//   }
+// }
 
-totalSum();
+// totalSum();
