@@ -43,16 +43,15 @@
 
 // const findLongestWord = function (string) {
 //     const words = string.split(" ");
-//     let longest = " ";
+//     let longest = words[0];
     
 //     for(let i = 0; i < words.length; i++){
 //         const smaller = words[i];
-//         if(smaller.length > longest){
+//         if(smaller.length > longest.length){
 //             longest = smaller;
 //         }
-
-//         return longest;
 //     }
+//     return longest;
 // };
 
 // console.log(findLongestWord("The quick brown fox jumped over the lazy dog")); // 'jumped'
@@ -135,8 +134,42 @@
 //       total += number;
 //     }
   
-//     console.log(`сума чисел ${total}.`);
+//     return (`сума чисел ${total}.`);
 //   }
 // }
 
-// totalSum();
+// console.log(totalSum());
+
+
+// завдання 7
+
+const logins = ['Mango', 'robotGoogles', 'Poly', 'Aj4x1sBozz', 'qwerty123'];
+
+const isLoginValid = function (login) {
+    return login.length >= 4 && login.length <= 16;
+};
+
+const isLoginUnique = function (allLogins, login) {
+    return !allLogins.includes(login);
+};
+
+const addLogin = function (allLogins, login) {
+    if(!isLoginValid(login)){
+        return ("Помилка! Логін повинен бути від 4 до 16 символів");
+    }
+
+    if(!isLoginUnique(allLogins, login)){
+        return ("Такий логін вже використовується!")
+    }
+
+    allLogins.push(login);
+    return ("Логін успішно доданий!")
+};
+
+/*
+ * Виклич функції для перевірки працездатності твоєї реалізації.
+ */
+console.log(addLogin(logins, 'Ajax')); // 'Логін успішно доданий!'
+console.log(addLogin(logins, 'robotGoogles')); // 'Такий логін вже використовується!'
+console.log(addLogin(logins, 'Zod')); // 'Помилка! Логін повинен бути від 4 до 16 символів'
+console.log(addLogin(logins, 'jqueryisextremelyfast')); // 'Помилка! Логін повинен бути від 4 до 16 символів'
