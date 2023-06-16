@@ -104,14 +104,13 @@
 // console.log(result); // [1, 4, 9, 16, 25]
 // завдання 7
 
-// const calculateDiscountedPrice = function (price, discount, callback) {
+const calculateDiscountedPrice = function (price, discount, callback) {
+    const discountedPrice = price - (price * discount / 100);
+    return callback(discountedPrice);
+};
 
-   
+const showDiscountedPrice = function(discountedPrice){
+    return `Discounted price: ${discountedPrice}`;
+};
 
-// };
-
-
-
-// const showDiscountedPrice = ;
-
-// calculateDiscountedPrice(100, 10, showDiscountedPrice); // Discounted price: 90
+console.log(calculateDiscountedPrice(100, 10, showDiscountedPrice)); // Discounted price: 90
