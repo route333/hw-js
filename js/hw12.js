@@ -84,15 +84,14 @@
 
 // завдання 6
 // const applyCallbackToEachElement = function (arr, callback) {
-//   const result = [];
-//   for (let i = 0; i < arr.length; i++) {
-//      result.push(callback(arr[i]));  
-//   }
-//   return result
+//     return callback(arr);
 // }
 
 // const squareCallback = function(arr){
-//   return arr * arr;
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = arr[i] * arr[i];
+//      }
+//      return arr;
 // }; 
 
 
