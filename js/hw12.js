@@ -83,24 +83,24 @@
 
 
 // завдання 6
-// const applyCallbackToEachElement = function (arr, callback) {
-//     return callback(arr);
-// }
+const applyCallbackToEachElement = function (arr, callback) {
+    return callback(arr);
+}
 
-// const squareCallback = function(arr){
-//     for (let i = 0; i < arr.length; i++) {
-//         arr[i] = arr[i] * arr[i];
-//      }
-//      return arr;
-// }; 
-
-
-// const arr = [1, 2, 3, 4, 5];
+const squareCallback = function(arr){
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i] * arr[i];
+     }
+     return arr;
+}; 
 
 
-// const result = applyCallbackToEachElement(arr, squareCallback);
+const arr = [1, 2, 3, 4, 5];
 
-// console.log(result); // [1, 4, 9, 16, 25]
+
+const result = applyCallbackToEachElement(arr, squareCallback);
+
+console.log(result); // [1, 4, 9, 16, 25]
 // завдання 7
 
 const calculateDiscountedPrice = function (price, discount, callback) {
