@@ -226,3 +226,36 @@
 // console.log(addLogin(logins, "robotGoogles")); // 'Такий логін вже використовується!'
 // console.log(addLogin(logins, "Zod")); // 'Помилка! Логін повинен бути від 4 до 16 символів'
 // console.log(addLogin(logins, "jqueryisextremelyfast")); // 'Помилка! Логін повинен бути від 4 до 16 символів'
+
+
+// завдання з відео:
+// завдання 1
+
+// Коля
+
+// завдання 2
+// так
+
+// showMessage(); 
+// function showMessage() {
+//     console.log("message");
+// }
+
+// завдання 3
+// ні,правильно буде так
+
+// let showMessage = function (){
+//     console.log("message");
+// }
+
+// showMessage();
+
+// завдання 4
+// треба перемістити showMessage(); в область видимості
+// `use strict`
+// if(2 > 1){
+//     function showMessage(){
+//         console.log(`message`);
+//     }
+//     showMessage();
+// }
