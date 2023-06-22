@@ -55,30 +55,30 @@
 
 // стрілочна:
 
-const calculateEngravingPrice = (message, pricePerWord) => message.split(" ").length * pricePerWord;
+// const calculateEngravingPrice = (message, pricePerWord) => message.split(" ").length * pricePerWord;
 
 
-  console.log(
-    calculateEngravingPrice(
-      "Proin sociis natoque et magnis parturient montes mus",
-      10
-    )
-  ); // 80
+//   console.log(
+//     calculateEngravingPrice(
+//       "Proin sociis natoque et magnis parturient montes mus",
+//       10
+//     )
+//   ); // 80
 
-  console.log(
-    calculateEngravingPrice(
-      "Proin sociis natoque et magnis parturient montes mus",
-      20
-    )
-  ); // 160
+//   console.log(
+//     calculateEngravingPrice(
+//       "Proin sociis natoque et magnis parturient montes mus",
+//       20
+//     )
+//   ); // 160
 
-  console.log(
-    calculateEngravingPrice("Donec orci lectus aliquam est magnis", 40)
-  ); // 240
+//   console.log(
+//     calculateEngravingPrice("Donec orci lectus aliquam est magnis", 40)
+//   ); // 240
 
-  console.log(
-    calculateEngravingPrice("Donec orci lectus aliquam est magnis", 20)
-  ); // 120
+//   console.log(
+//     calculateEngravingPrice("Donec orci lectus aliquam est magnis", 20)
+//   ); // 120
 
 // завдання 3
 
@@ -151,14 +151,7 @@ const calculateEngravingPrice = (message, pricePerWord) => message.split(" ").le
 
 // стрілочна:
 
-// const formatString = string => {
-//     if(string.length < 40){
-//         return string;
-//    }else{
-//         const strng = string.slice(0, 40) + "...";
-//         return strng;
-//    }
-//   };
+// const formatString = string => string.length < 40 ? string : string.slice(0, 40) + "...";
   
 //   console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
 //   // повернеться оригінальний рядок
