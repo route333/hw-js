@@ -57,7 +57,6 @@
 
 // const calculateEngravingPrice = (message, pricePerWord) => message.split(" ").length * pricePerWord;
 
-
 //   console.log(
 //     calculateEngravingPrice(
 //       "Proin sociis natoque et magnis parturient montes mus",
@@ -152,54 +151,53 @@
 // стрілочна:
 
 // const formatString = string => string.length < 40 ? string : string.slice(0, 40) + "...";
-  
+
 //   console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
 //   // повернеться оригінальний рядок
-  
+
 //   console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
 //   // повернеться форматований рядок
-  
+
 //   console.log(formatString('Curabitur ligula sapien.'));
 //   // повернеться оригінальний рядок
-  
+
 //   console.log(
 //     formatString(
 //       'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
 //     ),
 //   );
-  // повернеться форматований рядок
+// повернеться форматований рядок
 
 //   завдання 5
 
 //   const checkForSpam = function (message) {
 //       return message.includes("sale","spam");
 //     };
-    
+
 //     /*
 //      * Викличи функції для перевірки працездатності твоєї реалізації.
 //      */
 //     console.log(checkForSpam('Latest technology news')); // false
-    
+
 //     console.log(checkForSpam('JavaScript weekly newsletter')); // false
-    
+
 //     console.log(checkForSpam('Get best sale offers now!')); // true
-    
+
 //     console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
 
 // стрілочна:
 
 // const checkForSpam = message => message.includes("sale","spam");
 
-  
 //   /*
 //    * Викличи функції для перевірки працездатності твоєї реалізації.
 //    */
 //   console.log(checkForSpam('Latest technology news')); // false
-  
+
 //   console.log(checkForSpam('JavaScript weekly newsletter')); // false
-  
+
 //   console.log(checkForSpam('Get best sale offers now!')); // true
-  
+
 //   console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
 
 // завдання 7
@@ -349,13 +347,9 @@
 //     callback(pizzaName);
 //   };
 
-//   makePizza("Royal Grand", (pizzaName) => {
-//     console.log(`Delivering pizza ${pizzaName}.`);
-//   });
+//   makePizza("Royal Grand", pizzaName => `Delivering pizza ${pizzaName}.`);
 
-//   makePizza("Ultracheese", (pizzaName) => {
-//     console.log(`Eating pizza ${pizzaName}`);
-//   });
+//   makePizza("Ultracheese", pizzaName => `Eating pizza ${pizzaName}`);
 
 // завдання 4
 
@@ -395,7 +389,7 @@
 // const buttonClickNum = () => {
 //   click += 1;
 //   console.log(click);
-// }
+// };
 
 // buttonref.addEventListener("click", buttonClickNum);
 
@@ -449,12 +443,11 @@
 
 // стрілочна:
 
-// const calculateDiscountedPrice = (price, discount, callback) => {
-//     const discountedPrice = price - (price * discount / 100);
-//     return callback(discountedPrice);
-// };
+// const calculateDiscountedPrice = (price, discount, callback) =>
+//   callback(price - (price * discount) / 100);
 
-// const showDiscountedPrice = discountedPrice => `Discounted price: ${discountedPrice}`;
+// const showDiscountedPrice = (discountedPrice) =>
+//   `Discounted price: ${discountedPrice}`;
 
 // console.log(calculateDiscountedPrice(100, 10, showDiscountedPrice)); // Discounted price: 90
 
