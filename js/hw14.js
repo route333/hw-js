@@ -82,13 +82,22 @@
 
 // let lastTag = apartment.tags[apartment.tags.length - 1];
 
-// aptRating = apartment["rating"];
 
-// aptDescr = apartment["descr"];
+// const aptRating2 = "rating";
 
-// aptPrice = apartment["price"];
+// apartment[aptRating2];
 
-// aptTags = apartment["tags"];
+// const aptDescr2 = "descr"
+
+// apartment[aptDescr2];
+
+// const aptPrice2 = "price"
+
+// apartment[aptPrice2];
+
+// const aptTags2 = "tags"
+
+// apartment[aptTags2];
 
 // apartment.price = 5000;
 // apartment.rating = 4.7;
@@ -113,8 +122,6 @@
 
 // const tags = ["on sale", "trending", "best buy"];
 
- 
-
 // const product = {
 //     name,
 //     price,
@@ -131,7 +138,7 @@
 // const passwordInputName = "password";
 
 // const credentials = {
-//     email: [emailInputName],
-//     password: [passwordInputName],
+//   emailInputName,
+//   passwordInputName,
 // };
 // console.log(credentials);
