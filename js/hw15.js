@@ -14,7 +14,9 @@
 
 // console.log(countProps(user));
 // завдання 3
-const findBestEmployee = function (employees) {};
+const findBestEmployee = function (employees) {
+
+};
 
 // завдання 4
 
@@ -27,10 +29,10 @@ const findBestEmployee = function (employees) {};
 //     return totalSalary;
 // }
 // const workers = {
-//     John: 1000,
-//     Anna: 1500,
-//     Peter: 1200,
-//     Mary: 2000
+//     Max: 1000,
+//     Diana: 1500,
+//     Petro: 1200,
+//     Sviatoslaw: 2000
 //   };
 
 //   console.log(countTotalSalary(workers));
