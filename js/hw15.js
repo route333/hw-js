@@ -55,24 +55,24 @@
 //   console.log(countTotalSalary(workers));
 
 // завдання 5
-// function getAllPropValues(arr, prop) {
-//   const propValues = [];
-//   for (const obj of arr) {
-//     if (obj.name <= prop) {
-//       propValues.push(obj[prop]);
-//     }
-//   }
-//   return propValues;
-// }
+function getAllPropValues(arr, prop) {
+  const propValues = [];
+  for (const obj of arr) {
+    if (prop === prop) {
+      propValues.push(obj[prop]);
+    }
+  }
+  return propValues;
+}
 
-// const products = [
-//   { name: "Apple", price: 10 },
-//   { name: "Apple", price: 10 },
-//   { name: "Apple", price: 10 },
-//   { name: "Apple", price: 10 },
-// ];
+const products = [
+  { name: "Apple", price: 10 },
+  { name: "Apple", price: 13 },
+  { name: "Apple", price: 10 },
+  { name: "Apple", price: 10 },
+];
 
-// console.log(getAllPropValues(products, `price`));
+console.log(getAllPropValues(products, `price`));
 
 // завдання 6
 
