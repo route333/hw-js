@@ -58,7 +58,7 @@
 function getAllPropValues(arr, prop) {
   const propValues = [];
   for (const obj of arr) {
-    if (prop === prop) {
+    if (obj.prop !== prop) {
       propValues.push(obj[prop]);
     }
   }
