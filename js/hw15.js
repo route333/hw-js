@@ -14,26 +14,26 @@
 
 // console.log(countProps(user));
 // завдання 3
-const employees = {
-    diana: 5,
-    max: 15,
-    oleh: 10,
-}
+// const employees = {
+//     diana: 5,
+//     max: 15,
+//     oleh: 10,
+// }
 
-const findBestEmployee = function (employees) {
-    let bestEmployee = 0;
-    let bestEmployer = "";
-    const arrEmployees = Object.keys(employees);
-   for(const employe of arrEmployees){
-    if(bestEmployee < employees[employe]){
-        bestEmployee = employees[employe];
-        bestEmployer = employe
-    }
-}
-    return `${bestEmployer}: ${bestEmployee}`;
-};
+// const findBestEmployee = function (employees) {
+//     let bestEmployee = 0;
+//     let bestEmployer = "";
+//     const arrEmployees = Object.keys(employees);
+//    for(const employe of arrEmployees){
+//     if(bestEmployee < employees[employe]){
+//         bestEmployee = employees[employe];
+//         bestEmployer = employe
+//     }
+// }
+//     return `${bestEmployer}: ${bestEmployee}`;
+// };
 
-console.log(findBestEmployee(employees));
+// console.log(findBestEmployee(employees));
 
 // завдання 4
 
