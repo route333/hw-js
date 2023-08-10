@@ -1,3 +1,5 @@
+// завдання з домашки 16: 1
+
 // // завдання 1
 // const user = {
 //   hobby: "aaa",
@@ -14,9 +16,27 @@
 // };
 
 // завдання 2
-// const countProps = obj => Object.keys(obj).length;
+// файне без деструктирізації
 
-// console.log(countProps(user));
+// завдання 3
+// файне без деструктирізації
 
+// завдання 4
 
+// function countTotalSalary({Max, Diana, Petro, Sviatoslaw}){
+//     return Max + Diana + Petro + Sviatoslaw;
+// }
+// const workers = {
+//     Max: 1000,
+//     Diana: 1500,
+//     Petro: 1200,
+//     Sviatoslaw: 2000
+//   };
 
+//   console.log(countTotalSalary(workers));
+
+// завдання 5
+// файне без деструктирізації
+
+// завдання 6
+// файне без деструктирізації

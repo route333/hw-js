@@ -39,15 +39,22 @@
 
 // // завдання3
 //   const usersGender = users.map((users) => users.name + " is " + users.gender);
-//   console.log(usersGender)
+//   console.log(usersGender);
+
+//   const usersGender = users.filter(users => ())
+
+
 
 // // завдання4
 //   const usersIsActive = users.filter(users =>(users.isActive === false));
 //   console.log(usersIsActive);
 
 // // завдання5
-//   const usersEmail = users.reduce((emails, user) => emails + " " +user.email, "");
-//   console.log(usersEmail);
+  // const usersEmail = users.reduce((emails, user) => {
+  // emails.push(user.email);
+  // return emails;
+  // }, []);
+  // console.log(usersEmail);
   
 // // завдання6
 //   const usersAge = users.sort((a, b) => a.age - b.age);

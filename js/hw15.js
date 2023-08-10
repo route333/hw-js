@@ -35,7 +35,7 @@
 
 // console.log(findBestEmployee(employees));
 
-// завдання 4
+// // завдання 4
 
 // function countTotalSalary(employees){
 //     let totalSalary = 0
@@ -74,7 +74,7 @@
 
 // console.log(getAllPropValues(products, `price`));
 
-// завдання 6
+// // завдання 6
 
 // function calculateTotalPrice(allProdcuts, productName){
 //     let totalPrice = 0;
